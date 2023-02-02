@@ -1,12 +1,10 @@
-# distanceVectorRouting
-Simplified demonstration of the Distance Vector Routing Protocol.
-Runs on top of 4 servers/laptops using UDP which immitate routers.
-
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
 
+## General info
+This project is a simplified version of the Distance Vector Routing Protocol.
 
 PREREQUISITES:
 	If running on a windows machine use WSL(Windows Subsystem for Linux)
