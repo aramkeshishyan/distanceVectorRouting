@@ -12,9 +12,9 @@ If running on a windows machine use WSL(Windows Subsystem for Linux)
 
 ## Technologies
 Project is created with:
-*C environment
-*Linux Socket API
-*POSIX TREADS(Pthreads) library
+* C environment
+* Linux Socket API
+* POSIX TREADS(Pthreads) library
 
 ## Setup
 To run this project using any Linux Terminal
