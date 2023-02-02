@@ -3,6 +3,7 @@
 * [Prerequisites](#prerequisites)
 * [Technologies](#technologies)
 * [Setup](#setup)
+* [Functionality](#functionality)
 
 ## General info
 This project is a simplified version of the Distance Vector Routing Protocol.
@@ -24,7 +25,6 @@ $ gcc distance_vector_routing.c -o distance_vector_routing -lpthread
 $ ./distance_vector_routing
 ```
 
+## FUNCTIONALITY
 
-
-FUNCTIONALITY:
 	
