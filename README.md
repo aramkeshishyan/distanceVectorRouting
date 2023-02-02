@@ -3,7 +3,6 @@ Simplified demonstration of the Distance Vector Routing Protocol.
 Runs on top of 4 servers/laptops using UDP which immitate routers.
 
 PREREQUISITES:
-
 	If running on a windows machine
 	Use WSL(Windows Subsystem for Linux)
 	Use Ubuntu 20.04 GCC to compile
