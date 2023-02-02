@@ -4,6 +4,7 @@
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Functionality](#functionality)
+* [Example Inputs](#example-inputs)
 
 ## General info
 This project is a simplified version of the Distance Vector Routing Protocol.
@@ -29,6 +30,21 @@ $ gcc distance_vector_routing.c -o distance_vector_routing -lpthread
 $ ./distance_vector_routing
 ```
 
-## FUNCTIONALITY
+## Functionality
+* Run the program using 4 instances of terminals to immitate 4 routers
+* Info input is accepted using txt files
+
+## Example txt file inputs
+```
+4
+3
+0 172.24.20.171 11111
+1 172.24.20.171 22222
+2 172.24.20.171 33333
+3 172.24.20.171 44444
+0 1 7
+0 2 4
+0 3 6
+```
 
 	
