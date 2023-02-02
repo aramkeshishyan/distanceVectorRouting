@@ -4,7 +4,7 @@
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Functionality](#functionality)
-* [Example Inputs](#example-inputs)
+* [Input file format and examples](#input-file-format-and-examples)
 * [Available Commands](#available-commands)
 
 ## General info
@@ -54,7 +54,14 @@ The following commands can be invoked at any point
   
   
   
-## Example txt file inputs
+## Input file format and examples
+**Routers have each others information beforehand**
+1 number of servers
+2 number of neighbors
+3 
+
+  
+**Examples**
 Router #0
 ```
 4
