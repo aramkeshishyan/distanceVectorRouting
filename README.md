@@ -42,15 +42,15 @@ Input a router's initial topology configuration
 * server -t topology-file-name -i routing-update-interval
   
 The following commands can be invoked at any point 
-* update server-ID1 server-ID2 Link Cost
+* **update server-ID1 server-ID2 LinkCost** : Assigns a new link cost between neighboring routers
   - server-ID1, server-ID2: The link for which the cost is being updated
   - Link Cost: Specifies the new link cost between the source and the destination server
-  - Ex: update 1 2 8: Change the cost of the link to 8
-* step: Send a routing update to neighbors right away
-* packets: Display the number of packets received since the last invocation of the command
-* display: Display the current routing table
-* disable <server-ID>: Disable the link to a given server
-* crash: Close all connections. Simulates a crash of the router
+  -- Ex: update 1 2 8: Change the cost of the link to 8
+* **step**: Send a routing update to neighbors right away
+* **packets**: Display the number of packets received since the last invocation of the command
+* **display**: Display the current routing table
+* **disable <server-ID>**: Disable the link to a given server
+* **crash**: Close all connections. Simulates a crash of the router
   
   
   
