@@ -56,16 +56,17 @@ The following commands can be invoked at any point
   
 ## Input file format and examples
 **Routers have each others information beforehand**
-1. number of servers
-2. number of neighbors
-3. server-id and corresponding IP, Port pair
-4. server-id and corresponding IP, Port pair
-5. server-id and corresponding IP, Port pair
-6. server-id and corresponding IP, Port pair
-7. current-server-id neighbor-id and cost
-8. current-server-id neighbor-id and cost
-9. current-server-id neighbor-id and cost
-
+```
+number of servers
+number of neighbors
+server-id and corresponding IP, Port pair
+server-id and corresponding IP, Port pair
+server-id and corresponding IP, Port pair
+server-id and corresponding IP, Port pair
+current-server-id neighbor-id and cost
+current-server-id neighbor-id and cost
+current-server-id neighbor-id and cost
+```
 **Examples**
   
 Router #0
