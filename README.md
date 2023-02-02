@@ -39,7 +39,7 @@ $ ./distance_vector_routing
 
 ## Available Commands
 Input a router's initial topology configuration
-* server -t topology-file-name -i routing-update-interval
+* **server -t topology-file-name -i routing-update-interval**
   
 The following commands can be invoked at any point 
 * **update server-ID1 server-ID2 LinkCost** : Assigns a new link cost between neighboring routers
