@@ -36,6 +36,23 @@ $ ./distance_vector_routing
 * Info input is accepted using txt files
 * Neighboring routers exchange link updates periodically invoking the step function
 
+
+## Available Commands
+Input a router's initial topology configuration
+* server -t <topology-file-name> -i <routing-update-interval>
+  
+The following commands can be invoked at any point 
+* update server-ID1 server-ID2 Link Cost
+  - server-ID1, server-ID2: The link for which the cost is being updated
+  - Link Cost: Specifies the new link cost between the source and the destination server
+* step: Send a routing update to neighbors right away
+* packets: Display the number of packets received since the last invocation of the command
+* display: Display the current routing table
+* disable <server-ID>: Disable the link to a given server
+* crash: Close all connections. Simulates a crash of the router
+  
+  
+  
 ## Example txt file inputs
 Router #0
 ```
@@ -83,17 +100,4 @@ Router #3
 3 0 6
 3 2 1
 ```
-## Available Commands
-Input a router's initial topology configuration
-* server -t <topology-file-name> -i <routing-update-interval>
-  
-The following commands can be invoked at any point 
-* update server-ID1 server-ID2 Link Cost
-  - server-ID1, server-ID2: The link for which the cost is being updated
-  - Link Cost: Specifies the new link cost between the source and the destination server
-* step: Send a routing update to neighbors right away
-* packets: Display the number of packets received since the last invocation of the command
-* display: Display the current routing table
-* disable <server-ID>: Disable the link to a given server
-* crash: Close all connections. Simulates a crash of the router
 
