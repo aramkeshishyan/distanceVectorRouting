@@ -1,12 +1,16 @@
 ## Table of contents
 * [General info](#general-info)
+* [Prerequisites](#prerequisites)
 * [Technologies](#technologies)
 * [Setup](#setup)
 
 ## General info
 This project is a simplified version of the Distance Vector Routing Protocol.
 
-##Technologies
+## PREREQUISITES:
+If running on a windows machine use WSL(Windows Subsystem for Linux)
+
+## Technologies
 Project is created with:
 *C environment
 *Linux Socket API
@@ -14,15 +18,13 @@ Project is created with:
 
 ## Setup
 To run this project using any Linux Terminal
-
 ```
 $ cd ../distanceVectorRouting
+$ gcc distance_vector_routing.c -o distance_vector_routing -lpthread
+$ ./distance_vector_routing
 ```
 
 
-PREREQUISITES:
-	If running on a windows machine use WSL(Windows Subsystem for Linux)
-	Need to compile with pthreads linked, example: (gcc distance_vector_routing.c -o distance_vector_routing -lpthread)
-	When running, specify the topology file and update interval, example (server -t topology0.txt -i 20)
+
 FUNCTIONALITY:
 	
