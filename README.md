@@ -38,7 +38,7 @@ $ ./distance_vector_routing
 
 
 ## Available Commands
-Input a router's initial topology configuration
+Input a router's initial topology configuration and specify the automatic message exchange(update) interval
 * **server -t topology-file-name -i routing-update-interval**
   
 The following commands can be invoked at any point 
