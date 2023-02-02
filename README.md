@@ -5,6 +5,7 @@
 * [Setup](#setup)
 * [Functionality](#functionality)
 * [Example Inputs](#example-inputs)
+* [Available Commands](#available-commands)
 
 ## General info
 This project is a simplified version of the Distance Vector Routing Protocol.
@@ -81,4 +82,10 @@ Router #3
 3 0 6
 3 2 1
 ```
+## Available Commands
+* Step: Send a routing update to neighbors right away
+* packets: Display the number of packets received since the last invocation of the command
+* display: Display the current routing table
+* disable <server-ID>: Disable the link to a given server
+* crash: Close all connections. Simulates a crash of the server
 
