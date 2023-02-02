@@ -115,4 +115,6 @@ Router #3
 3 0 6
 3 2 1
 ```
+Creates the following graph
+![alt text](http://url/to/img.png)
 
