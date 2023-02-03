@@ -1,3 +1,4 @@
+# Distance Vector Routing Protocol Simplified
 ## Table of contents
 * [General info](#general-info)
 * [Prerequisites](#prerequisites)
