@@ -21,7 +21,7 @@ Project is created with:
 * POSIX TREADS(Pthreads) library
 
 ## Setup
-To run this project using any Linux Terminal
+To run this project use any Linux Terminal
 ```
 $ cd ../distanceVectorRouting
 ```
