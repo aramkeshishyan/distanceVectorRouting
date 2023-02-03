@@ -50,7 +50,7 @@ The following commands can be invoked at any point
 * **step**: Send a routing update to neighbors right away
 * **packets**: Display the number of packets received since the last invocation of the command
 * **display**: Display the current routing table
-* **disable <server-ID>**: Disable the link to a given server
+* **disable server-ID**: Disable the link to a given server
 * **crash**: Close all connections. Simulates a crash of the router
   
   
