@@ -22,13 +22,13 @@ Project is created with:
 ## Setup
 To run this project using any Linux Terminal
 ```
-cd ../distanceVectorRouting
+$ cd ../distanceVectorRouting
 ```
 ```
-gcc distance_vector_routing.c -o distance_vector_routing -lpthread
+$ gcc distance_vector_routing.c -o distance_vector_routing -lpthread
 ```
 ```
-./distance_vector_routing
+$ ./distance_vector_routing
 ```
 
 ## Functionality
