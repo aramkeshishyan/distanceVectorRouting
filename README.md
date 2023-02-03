@@ -118,5 +118,5 @@ Router #3
 **Creates the following graph**
   
   
-![alt text](https://github.com/aramkeshishyan/distanceVectorRouting/blob/main/Example%20graph.png)
+![alt text](https://github.com/aramkeshishyan/distanceVectorRouting/blob/main/Ex_Graph.png)
 
